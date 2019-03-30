@@ -7,12 +7,15 @@ CAP 5610
 | Metric| Value |
 |-------|-------|
 |Number of Layers| **9** (3 Conv, 3 Pooling, 2 Dense, 1 Flattening)| 
-|Accuracy - Validation| |  
-|Accuracy - Test| |  
-#### Lower learning rate (0.01 -> 0.001)
+|Accuracy - Training| 10.05% |
+|Accuracy - Validation| 9.8% |  
+|Accuracy - Test| 10% |  
+#### Thoughts
+The model is not learning much more than a random guess, there needs to be more layers, convolutions and/or parameters
+#### Increase Batches (layer 2 : 32 -> 64, layer 3 : 32 -> 128), Decrease Learning Rate (0.01 -> 0.001)
 | Metric| Value |
 |-------|-------|
-|Number of Layers| | 
+|Number of Layers| **9** (3 Conv, 3 Pooling, 2 Dense, 1 Flattening) | 
 |Accuracy - Validation| |  
 |Accuracy - Test| |  
 
