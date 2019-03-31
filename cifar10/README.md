@@ -37,9 +37,9 @@ Add Padding and then add an extra pooling layer.
 |-------|-------|
 |Epochs|30|
 |Number of Layers| **12** (6 Conv, 3 Pooling, 2 Dense, 1 Flattening) | 
-|Accuracy - Training| test |
-|Accuracy - Validation|test |  
-|Accuracy - Test|test| 
+|Accuracy - Training| 96% |
+|Accuracy - Validation| 76% |  
+|Accuracy - Test| 60%| 
 #### Thoughts
 Padding allowed a large enough area for the final layer to still have enough relation between pixels to produce relevant weights.
 Allowed for the layers with small area to observe very basic feature detection.
