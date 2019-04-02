@@ -74,15 +74,16 @@ Need to fix over fitting:
 The peak performance seems to happen around 35 epochs.  
 <img src="img/trainingAcc.png" width="60%">.
 
-#### (2.3) Added Batch Normilization, Increased Nodes on classifier input layer 64 -> 128, Changes epochs to 40
+#### (2.3) Added Batch Normilization, Increased Nodes on classifier input layer 64 -> 128, Changes epochs to 35
 | Metric| Value |
 |-------|-------|
-|Epochs| 75 |
+|Epochs| 35 |
 |Number of Layers| **18** (6 Conv, 6 Normilization, 3 Pooling, 2 Dense, 1 Flattening) | 
-|Accuracy - Training|  |
-|Accuracy - Validation| |  
-|Accuracy - Test| | 
+|Accuracy - Training| 88.42% |
+|Accuracy - Validation| 81.84% |  
+|Accuracy - Test| 81.29% | 
 #### Thoughts
+YOU HAVE TO NORMALIZE TEST IMAGES
 
 ## Dropout CNN with data augmentation
 ?? Number of Layers  
