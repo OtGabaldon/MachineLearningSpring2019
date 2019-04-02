@@ -62,7 +62,7 @@ Need to fix over fitting:
 #### Thoughts
 - [x] Double check that new validation style is not affecting results.
 - [ ] Try increasing number of epochs, since there is now more training data
-#### (2.2) Increase Epochs to 75
+#### (2.2) Increased Epochs to 75
 | Metric| Value |
 |-------|-------|
 |Epochs| 75 |
@@ -73,6 +73,16 @@ Need to fix over fitting:
 #### Thoughts
 The peak performance seems to happen around 35 epochs.  
 ![Training Acc](img/trainingAcc.png)
+
+#### (2.3) Added Batch Normilization, Increased Nodes on classifier input layer 64 -> 128, Changes epochs to 40
+| Metric| Value |
+|-------|-------|
+|Epochs| 75 |
+|Number of Layers| **18** (6 Conv, 6 Normilization, 3 Pooling, 2 Dense, 1 Flattening) | 
+|Accuracy - Training|  |
+|Accuracy - Validation| |  
+|Accuracy - Test| | 
+#### Thoughts
 
 ## Dropout CNN with data augmentation
 ?? Number of Layers  
