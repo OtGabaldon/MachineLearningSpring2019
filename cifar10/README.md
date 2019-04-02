@@ -72,7 +72,7 @@ Need to fix over fitting:
 |Accuracy - Test| 44.7% | 
 #### Thoughts
 The peak performance seems to happen around 35 epochs.  
-![Training Acc](img/trainingAcc.png)
+<img src="img/trainingAcc.png" width="60%">.
 
 #### (2.3) Added Batch Normilization, Increased Nodes on classifier input layer 64 -> 128, Changes epochs to 40
 | Metric| Value |
