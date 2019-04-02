@@ -50,8 +50,8 @@ Need to fix over fitting:
 - [ ] Batch Normilization
 - [ ] Kernal_regulizer
 
-## (2.1) Vanilla CNN with data augmentation
-#### Manually Split Training and Validation Data. Added rotation, zoom, and dimension shifts to data augmentation
+## Vanilla CNN with data augmentation
+#### (2.1) Manually Split Training and Validation Data. Added rotation, zoom, and dimension shifts to data augmentation
 | Metric| Value |
 |-------|-------|
 |Epochs|30|
@@ -62,6 +62,17 @@ Need to fix over fitting:
 #### Thoughts
 - [x] Double check that new validation style is not affecting results.
 - [ ] Try increasing number of epochs, since there is now more training data
+#### (2.2) Increase Epochs to 75
+| Metric| Value |
+|-------|-------|
+|Epochs| 75 |
+|Number of Layers| **12** (6 Conv, 3 Pooling, 2 Dense, 1 Flattening) | 
+|Accuracy - Training| 75.7%  |
+|Accuracy - Validation|  78.25% |  
+|Accuracy - Test| 44.7% | 
+#### Thoughts
+The peak performance seems to happen around 35 epochs.  
+![Training Acc](img/trainingAcc.png)
 
 ## Dropout CNN with data augmentation
 ?? Number of Layers  
