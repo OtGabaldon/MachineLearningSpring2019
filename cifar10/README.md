@@ -31,7 +31,7 @@ The model is not learning. The final pooling layer might push the convolutions t
 #### Thoughts
 Maybe try going straight to the final Dense classification layer. 
 Increase the number of neurons in the First Dense Layer.  
-Add Padding and then add an extra pooling layer.
+- [x] Add Padding and then add an extra pooling layer.
 #### (1.4) Added Padding, Added Final Pooling Layer
 | Metric| Value |
 |-------|-------|
@@ -44,11 +44,11 @@ Add Padding and then add an extra pooling layer.
 Padding allowed a large enough area for the final layer to still have enough relation between pixels to produce relevant weights.
 Allowed for the layers with small area to observe very basic features.
 Need to fix over fitting:
-Data Augmentation
-Dropout
-Normilization of inputs 
-Batch Normilization
-Kernal_regulizer
+- [ ] Data Augmentation
+- [ ] Dropout
+- [ ] Normilization of inputs 
+- [ ] Batch Normilization
+- [ ] Kernal_regulizer
 
 ## (2.1) Vanilla CNN with data augmentation
 #### Manually Split Training and Validation Data. Added rotation, zoom, and dimension shifts to data augmentation
@@ -60,7 +60,8 @@ Kernal_regulizer
 |Accuracy - Validation|  77.23% |  
 |Accuracy - Test| 49.8% | 
 #### Thoughts
-Double check that new validation style is not affecting results. Try increasing number of epochs, since there is now more training data
+- [x] Double check that new validation style is not affecting results.
+- [ ] Try increasing number of epochs, since there is now more training data
 
 ## Dropout CNN with data augmentation
 ?? Number of Layers  
