@@ -102,7 +102,7 @@ V3.1 https://colab.research.google.com/drive/1UGsKdLGAaIWow-juOBeUII7oj0WDqouX
 The diffrence between Training and Test is much lower with dropout, but it needs more time to train
 - [x] Increase Epochs
 - [x] Decrease Dropout Rate
-- [x] Add K-folds
+- [x] Add K-folds  
 <img src="img/trainingAcc2.png" width="60%">.
 #### (4) K-folds added, Epochs Increased to 50
 | Metric| Value |
