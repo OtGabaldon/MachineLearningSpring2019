@@ -1,7 +1,9 @@
 # CIFAR 10 -- HOMEWORK 2
 Ot Gabaldon Torrents  
 CAP 5610
+Each python notebook is in the github account, Google Collab notebooks are based off of final revision.
 ## CNN 
+V1.4 https://colab.research.google.com/drive/1o8crFb4Sw0IJj8YcpexO1mCqVHuws_hB#scrollTo=AxJKjJ5oNRGi
 #### (1.1) Original
 | Metric| Value |
 |-------|-------|
@@ -44,13 +46,14 @@ Increase the number of neurons in the First Dense Layer.
 Padding allowed a large enough area for the final layer to still have enough relation between pixels to produce relevant weights.
 Allowed for the layers with small area to observe very basic features.
 Need to fix over fitting:
-- [ ] Data Augmentation
-- [ ] Dropout
-- [ ] Normilization of inputs 
-- [ ] Batch Normilization
+- [X] Data Augmentation
+- [X] Dropout
+- [X] Normilization of inputs 
+- [X] Batch Normilization
 - [ ] Kernal_regulizer
 
 ## Vanilla CNN with data augmentation
+V2.3 https://colab.research.google.com/drive/1TrvHTXS3ouumAEQ3flq3tksAeQQlIewu#scrollTo=ycwobM-xeCYa
 #### (2.1) Manually Split Training and Validation Data. Added rotation, zoom, and dimension shifts to data augmentation
 | Metric| Value |
 |-------|-------|
@@ -72,7 +75,7 @@ Need to fix over fitting:
 |Accuracy - Test| 44.7% | 
 #### Thoughts
 The peak performance seems to happen around 35 epochs.  
-<img src="img/trainingAcc.png" width="60%">.
+<img src="img/trainingAcc.png" width="60%">
 
 #### (2.3) Added Batch Normilization, Increased Nodes on classifier input layer 64 -> 128, Changes epochs to 35
 | Metric| Value |
@@ -85,14 +88,27 @@ The peak performance seems to happen around 35 epochs.
 #### Thoughts
 YOU HAVE TO NORMALIZE TEST IMAGES
 
-## Dropout CNN with data augmentation
-?? Number of Layers  
-?? Number of Convolutions  
-?? Accuracy - Train  
-?? Accuracy - Test  
-
-## Fine Tuned Dropout CNN with data augmentation
-?? Number of Layers  
-?? Number of Convolutions  
-?? Accuracy - Train  
-?? Accuracy - Test  
+## CNN Dropout and Data Augmentation
+V3.1 https://colab.research.google.com/drive/1UGsKdLGAaIWow-juOBeUII7oj0WDqouX
+#### (3.1) Added Dropout and increased Epochs to 45
+| Metric| Value |
+|-------|-------|
+|Epochs| 45 |
+|Number of Layers| **21** (6 Conv, 6 Normilization, 3 Pooling, 3 Dropout, 2 Dense, 1 Flattening) | 
+|Accuracy - Training| 79.5% |
+|Accuracy - Validation| 74.03% |  
+|Accuracy - Test| 74.32% | 
+#### Thoughts
+The diffrence between Training and Test is much lower with dropout, but it needs more time to train
+- [x] Increase Epochs
+- [x] Decrease Dropout Rate
+- [x] Add K-folds
+<img src="img/trainingAcc2.png" width="60%">.
+#### (4) K-folds added, Epochs Increased to 50
+| Metric| Value |
+|-------|-------|
+|Epochs| 50 |
+|Number of Layers| **21** (6 Conv, 6 Normilization, 3 Pooling, 3 Dropout, 2 Dense, 1 Flattening) | 
+|Accuracy - Training|  |
+|Accuracy - Validation|  |  
+|Accuracy - Test|  | 
