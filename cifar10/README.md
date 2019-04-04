@@ -1,7 +1,7 @@
 # CIFAR 10 -- HOMEWORK 2
 Ot Gabaldon Torrents  
 CAP 5610
-Each python notebook is in the github account, Google Collab notebooks are based off of final revision.
+Each python notebook is in the github repo, Google Collab notebooks are based off of final revision.
 ## CNN 
 V1.4 https://colab.research.google.com/drive/1o8crFb4Sw0IJj8YcpexO1mCqVHuws_hB#scrollTo=AxJKjJ5oNRGi
 #### (1.1) Original
@@ -63,8 +63,8 @@ V2.3 https://colab.research.google.com/drive/1TrvHTXS3ouumAEQ3flq3tksAeQQlIewu#s
 |Accuracy - Validation|  77.23% |  
 |Accuracy - Test| 49.8% | 
 #### Thoughts
+- [x] Try increasing number of epochs, since there is now more training data.
 - [x] Double check that new validation style is not affecting results.
-- [ ] Try increasing number of epochs, since there is now more training data
 #### (2.2) Increased Epochs to 75
 | Metric| Value |
 |-------|-------|
@@ -111,6 +111,6 @@ V4.1 https://colab.research.google.com/drive/1vf0f1Wl-FTcN9ytnjoqywvGuxxQTw9tq
 |-------|-------|
 |Epochs| 50 |
 |Number of Layers| **21** (6 Conv, 6 Normilization, 3 Pooling, 3 Dropout, 2 Dense, 1 Flattening) | 
-|Accuracy - Training|  |
-|Accuracy - Validation|  |  
-|Accuracy - Test|  | 
+|Accuracy - Training| **Still Running**  |
+|Accuracy - Validation|  **StillRunning** |  
+|Accuracy - Test| **StillRunning**  | 
