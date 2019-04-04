@@ -31,8 +31,8 @@ The model is not learning. The final pooling layer might push the convolutions t
 |Accuracy - Validation| 9.77% |  
 |Accuracy - Test| 10.71% |  
 #### Thoughts
-Maybe try going straight to the final Dense classification layer. 
-Increase the number of neurons in the First Dense Layer.  
+- [ ] Maybe try going straight to the final Dense classification layer.   
+- [x] Increase the number of neurons in the First Dense Layer.  
 - [x] Add Padding and then add an extra pooling layer.
 #### (1.4) Added Padding, Added Final Pooling Layer
 | Metric| Value |
