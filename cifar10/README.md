@@ -104,7 +104,9 @@ The diffrence between Training and Test is much lower with dropout, but it needs
 - [x] Decrease Dropout Rate
 - [x] Add K-folds  
 <img src="img/trainingAcc2.png" width="60%">.
-#### (4) K-folds added, Epochs Increased to 50
+## K-folds
+V4.1 https://colab.research.google.com/drive/1vf0f1Wl-FTcN9ytnjoqywvGuxxQTw9tq
+#### (4.1) K-folds added, Epochs Increased to 50
 | Metric| Value |
 |-------|-------|
 |Epochs| 50 |
