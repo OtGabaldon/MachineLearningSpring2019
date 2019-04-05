@@ -105,12 +105,16 @@ The diffrence between Training and Test is much lower with dropout, but it needs
 - [x] Add K-folds  
 <img src="img/trainingAcc2.png" width="60%">.
 ## K-folds
-V4.1 https://colab.research.google.com/drive/1vf0f1Wl-FTcN9ytnjoqywvGuxxQTw9tq
+V4.1 https://colab.research.google.com/drive/1MaqNLpfOnlAL46aJZ3nsKjnK9k6yDUh1
 #### (4.1) K-folds added, Epochs Increased to 50
 | Metric| Value |
 |-------|-------|
 |Epochs| 50 |
 |Number of Layers| **21** (6 Conv, 6 Normilization, 3 Pooling, 3 Dropout, 2 Dense, 1 Flattening) | 
-|Accuracy - Training| **Still Running**  |
-|Accuracy - Validation|  **StillRunning** |  
-|Accuracy - Test| **StillRunning**  | 
+|Accuracy - Training| 63.99%  |
+|Accuracy - Validation|  63.7% |  
+|Accuracy - Test| 79.648% | 
+#### Thoughts
+K-folds seems to increase the test accuracy in comparison to the validation accruacy.  
+Although this method took over 30 hours to train. 
+It seems that the time put into training the folds would have been better spent on more epochs,unless there is a severe lack of data then k-folds can produce good results.
