@@ -114,6 +114,7 @@ V4.1 https://colab.research.google.com/drive/1MaqNLpfOnlAL46aJZ3nsKjnK9k6yDUh1
 |Accuracy - Training| 63.99%  |
 |Accuracy - Validation|  63.7% |  
 |Accuracy - Test| 79.648% | 
+<img src="img/trainingAcc3.png" width="60%">.
 #### Thoughts
 K-folds seems to increase the test accuracy in comparison to the validation accruacy.  
 Although this method took over 30 hours to train. 
